@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<title>Luxury Newport Condo Rental</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="css/thames.css">
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="row">        
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="index.html">360 Thames</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="page-scroll" href="#properties">Properties</a></li>                
+                        <li><a class="page-scroll" href="#location">Location</a></li>
+                        <li><a class="page-scroll" href="#availability">Availability</a></li>
+                        <li><a class="page-scroll" href="#contact">Contact</a></li>
+                    </ul>
+                </div>    
+            </div>
+        </div>
+    </nav>
+
+        
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Newport, Rhode Island</h1>
+                <!-- <hr> -->
+                <h2>Luxury, Waterfront Vacation Rental</h2>
+            </div>
+        </div>
+    </header>
+    
+
+
+
+     <section id="properties">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">Properties</h2>
+                <hr>
+                <div class="col-md-4">
+                    <img src="img/view2.jpg" class="img-responsive">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/view.jpg" class="img-responsive">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/balcony.jpg" class="img-responsive">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/header.jpg" class="img-responsive">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/living.jpg" class="img-responsive">
+                </div>                
+                <div class="col-md-4">
+                    <img src="img/living2.jpg" class="img-responsive">
+                </div>                                
+                <div class="col-md-4">
+                    <img src="img/kitchen.jpg" class="img-responsive">
+                </div>                                
+                 <div class="col-md-4">
+                    <img src="img/kitchen2.jpg" class="img-responsive">
+                </div>                                
+                 <div class="col-md-4">
+                    <img src="img/bed.jpg" class="img-responsive">
+                </div>                                
+                 <div class="col-md-4">
+                    <img src="img/bed2.jpg" class="img-responsive">
+                </div>                                
+                 <div class="col-md-4">
+                    <img src="img/bed3.jpg" class="img-responsive">
+                </div>     
+                 <div class="col-md-4">
+                    <img src="img/bed4.jpg" class="img-responsive">
+                </div>
+                 <div class="col-md-4">
+                    <img src="img/bed5.jpg" class="img-responsive">
+                </div> 
+                 <div class="col-md-4">
+                    <img src="img/bed6.jpg" class="img-responsive">
+                </div> 
+                 <div class="col-md-4">
+                    <img src="img/bath2.jpg" class="img-responsive">
+                </div>                                                     
+            </div>
+        </div>
+         
+     </section>
+
+    <section id="location">
+        <div class="container">
+            <div class="row text-center">
+                    <h2>Location</h2>
+                <hr>
+                <p>Located in the heart of Newport your vacation rental comes furnished with all the comforts of home in a location that cannot truly be beat with full views of Thames Street to see all the action as well as full views of Newport harbor with countless sailboats. </p>
+            </div>
+            <div class="row">                
+                <div class="col-md-6">
+                    <div id="map-panel">
+                      <input id="address" type="textbox" value="360 Thames St, Newport, RI" size="25">
+                      <input id="submit" type="button" value="Reset">
+                    </div>
+                    <div id="map">
+                    </div>
+                </div>
+                <div class="col-md-6">                  
+                    <div id='floating-panel'>
+                        <strong>Start: </strong>
+                        <select id="start">
+                            <option value="360 Thames St, Newport, RI 02840">360 Thames St</option>
+                        </select>
+                        <strong>End: </strong>
+                            <select id="end">
+                              <option value="360 Thames St, Newport, RI 02840">360 Thames St</option>
+                              <option id="mariott" value="41.490023, -71.318057 ">Newport Marriott</option>
+                              <option value="175 Memorial Blvd, Newport, RI 02840">Easton's Beach</option>
+                              <option value="345 Thames St, Newport, RI 02840">Midtown Oyster Bar</option>
+                              <option value="41 Bowens Wharf, Newport, RI 02840">Fluke Wine Bar</option>
+                              <option value="22 Bowens Wharf, Newport, RI 02840">22 Bowen's</option>
+                              <option value="1 Sayers Wharf, Newport, RI 02840">The Mooring</option>
+                              <option value="Providence, RI">Providence, RI</option>
+                              <option value="Boston, MA">Boston, MA</option>
+                              <option value="New York, NY">New York, NY</option>
+                            </select>
+                        <button id="calc-button">Get Directions</button>
+                    </div>
+                    <div>
+                        <div id="directionsPanel"></div>
+                        <div id="right-panel"></div>
+                    </div>
+            </div>        
+        </div>
+    </section>
+
+    <section id="availability">
+        <div class="container">   
+            <h2 class="text-center">Availability</h2>
+            <h3>5A</h3>
+            <div class="full-calendar"><iframe class="center-block" scrolling="no" width="592" height="1024" frameBorder="0" style="overflow:hidden;border:none" src="http://www.vrbo.com/585160/calendar?widget=true"></iframe><a href="http://www.vrbo.com/585160" style="display:block;text-align:center;margin-top:-30px; font-size:12px;" rel="nofollow">VRBO.com #585160</a></div>
+            <div class="vertical-calendar">
+                <div id="_vrbo_cal_widget_585160">
+                <div id="_vrbo_cal_link_585160">
+                <a href="http://www.vrbo.com/585160?cid=AM_widget_calendarwidget-viewlisting_widget_T_LCAL" target="_blank" rel="nofollow">VRBO Vacation Rental #585160</a><span> | </span>
+                <a href="http://www.vrbo.com/585160/calendar?cid=AM_widget_calendarwidget-viewdates_widget_T_LCAL" target="_blank" rel="nofollow">View all dates</a></div>
+                <script type="text/javascript">
+                var _vrbo_widget = "true";
+                var _vrbo_base_url = "http://www.vrbo.com";
+                var _vrbo_listing_id = 585160;
+                var _vrbo_months = 3;
+                var _vrbo_orientation = "vertical";
+                var _vrbo_bg_color = "none";
+                </script>
+                <!-- <script type="text/javascript" src="vrbo-cal.js"></script></div> -->
+                <script type="text/javascript" src="http://www.vrbo.com/resources/current/scripts/calendarwidget.js"></script></div>
+            </div>            
+
+            <h3>5B</h3>
+
+            <div class="full-calendar"><iframe class="center-block" scrolling="no"  width="592" height="1024" frameBorder="0" style="overflow:hidden;border:none" src="http://www.vrbo.com/742446/calendar?widget=true"></iframe><a href="http://www.vrbo.com/742446" style="display:block;text-align:center;margin-top:-30px; font-size:12px;" rel="nofollow">VRBO.com #742446</a></div>
+            <div class="vertical-calendar">
+                <div id="_vrbo_cal_widget_742446">
+                <div id="_vrbo_cal_link_742446">
+                <a href="http://www.vrbo.com/742446?cid=AM_widget_calendarwidget-viewlisting_widget_T_LCAL" target="_blank" rel="nofollow">VRBO Vacation Rental #742446</a><span> | </span>
+                <a href="http://www.vrbo.com/742446/calendar?cid=AM_widget_calendarwidget-viewdates_widget_T_LCAL" target="_blank" rel="nofollow">View all dates</a></div>
+                <script type="text/javascript">
+                var _vrbo_widget = "true";
+                var _vrbo_base_url = "http://www.vrbo.com";
+                var _vrbo_listing_id = 742446;
+                var _vrbo_months = 3;
+                var _vrbo_orientation = "vertical";
+                var _vrbo_bg_color = "none";
+                </script>
+                <script type="text/javascript" src="http://www.vrbo.com/resources/current/scripts/calendarwidget.js"></script></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="container">
+            
+        <h2 class="text-center">Contact</h2>
+            
+            <iframe class="center-block" scrolling="no" frameborder="0" style="overflow: hidden; border: 1px solid #ccc;" src="http://www.vrbo.com/haow/widgets/check.html?propertyId=585160&site=VRBO&unitId=1132477" width="260" height="350"></iframe>
+        </div>
+    </section>
+
+<!--     <section>
+        <div style="display:inline-block"><a href="http://www.vrbo.com/742446" rel="nofollow"><img src="http://www.vrbo.com/haow/api/image/vrbo/vrbo/742446/reviews" alt="HomeAway Property" style="border:none;" rel="nofollow"/></a><div style="text-align:center;"><a href="http://www.vrbo.com/742446/reviews" rel="nofollow">Read</a> or <a href="http://www.vrbo.com/742446/reviews/write" rel="nofollow">Write</a> Reviews</div></div>
+    </section> -->
+
+
+
+
+
+	<!-- jQuery toggles the navbar -->
+	<!-- jQuery --> 
+	<script src="js/jquery.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/thames.js"></script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmk7cP6WPlqLXgIP4mlQKg7RTDVxhKm50&callback=initMap">
+    </script>
+
+</body>
+</html>
